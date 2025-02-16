@@ -51,7 +51,7 @@ public class CelebrityProblem {
     public static int findCelebrity(int[][] peoples) {
 
         Stack<Integer> possibleCelebrities = new LinkedStack<>();
-
+        // System.out.println("***********" + peoples.length + "");
         for (int i = 0; i < peoples.length; i++) {
             for (int j = 0; j < peoples[0].length; j++) {
                 if (haveAcquaintance(peoples, i, j)) {

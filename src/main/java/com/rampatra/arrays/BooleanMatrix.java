@@ -72,7 +72,7 @@ public class BooleanMatrix {
         print2DMatrix(ar);
         modifyBooleanMatrix(ar);
         print2DMatrix(ar);
-        System.out.println("-------");
+        System.out.println("----- --");
         ar = new int[][]{{1, 0}, {0, 0}};
         print2DMatrix(ar);
         modifyBooleanMatrix(ar);
